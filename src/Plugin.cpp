@@ -10,9 +10,7 @@
 #include <MC/Player.hpp>
 #include <MC/Scoreboard.hpp>
 #include <MC/Types.hpp>
-#include <map>
 #include <string>
-#include <unordered_map>
 
 /**
  * @brief The entrypoint of the plugin. DO NOT remove or rename this function.
