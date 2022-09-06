@@ -15,12 +15,14 @@
 // Please FILL UP the content here before developing your plugin, and DO NOT modify any code
 // outside this area.
 
-static_assert(false, "Please modify your plugin information below and delete this line!");
-
 // The basic descriptions of your plugin
-#define PLUGIN_NAME "My Plugin"
-#define PLUGIN_INTRODUCTION "My Plugin is a plugin printing \"Hello, World!\" in the console."
-#define PLUGIN_AUTHOR "Me"
+// Note that the the plugin name CAN ONLY CONTAIN Enlish alphabet, digit, dash(-) and
+// underscore(_). 
+#define PLUGIN_NAME "LLDeathCounter"
+// Describe what your plugin does
+// We recommend you start the introduction with a third-person singular verb.
+#define PLUGIN_INTRODUCTION "Records the number of player deaths."
+#define PLUGIN_AUTHOR "Futrime"
 
 // The version of your plugin. If you do not know how to set it, please refer
 // to https://semver.org/ .
@@ -31,7 +33,7 @@ static_assert(false, "Please modify your plugin information below and delete thi
 
 // The stage of your plugin, which can be PLUGIN_VERSION_DEV, PLUGIN_VERSION_BETA
 // and PLUGIN_VERSION_RELEASE
-#define PLUGIN_VERSION_STATUS PLUGIN_VERSION_DEV
+#define PLUGIN_VERSION_STATUS PLUGIN_VERSION_RELEASE
 
 // The target protocol version of your plugin. If you do not know how to set it,
 // please start the latest version of LiteLoaderBDS and get the protocol version.
