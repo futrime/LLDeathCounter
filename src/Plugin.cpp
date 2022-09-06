@@ -3,13 +3,9 @@
  * @brief The main file of the plugin
  */
 
-#include <DynamicCommandAPI.h>
 #include <EventAPI.h>
-#include <LoggerAPI.h>
 #include <ScheduleAPI.h>
 
-#include <MC/CommandOrigin.hpp>
-#include <MC/CommandOutput.hpp>
 #include <MC/Objective.hpp>
 #include <MC/Player.hpp>
 #include <MC/Scoreboard.hpp>
